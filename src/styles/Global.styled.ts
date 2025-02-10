@@ -1,7 +1,7 @@
 import {createGlobalStyle} from "styled-components";
 import {theme} from "./Theme";
 
-export const GlobalStyled = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
     *,
     *::before,
     *::after {
@@ -10,12 +10,13 @@ export const GlobalStyled = createGlobalStyle`
     }
     body {
         margin: 0;
-        font-family: "Poppins", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: ${theme.colors.font};
+        line-height: 1.2;
     }
     a {
         text-decoration: none;
@@ -27,6 +28,11 @@ export const GlobalStyled = createGlobalStyle`
         background-color: unset;
         border: none;
     }
+    
+    section {
+        padding: 100px 0;
+    }
+    
     section:nth-of-type(odd){
         background-color: ${theme.colors.primaryBg};
     }

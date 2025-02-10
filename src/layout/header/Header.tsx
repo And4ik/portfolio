@@ -1,11 +1,12 @@
 import React from 'react';
 import {Logo} from "../../components/logo/Logo";
 import styled from "styled-components";
-import {Menu} from "../../components/menu/Menu";
 import {Container} from "../../components/Container";
 import {FlexWrapper} from "../../components/FlexWrapper";
+import {HeaderMenu} from "./headerMenu/HeaderMenu";
 
-const items = ["Home","Skills","Work","About me","Contact"]
+
+const items = ["Home", "Skills", "Work", "About me", "Contact"]
 
 
 export const Header = () => {
@@ -14,13 +15,19 @@ export const Header = () => {
             <Container>
                 <FlexWrapper justify={"space-between"} align={"center"}>
                     <Logo/>
-                    <Menu menuItems={items}/>
+                    <HeaderMenu menuItems={items}/>
                 </FlexWrapper>
             </Container>
         </StyledHeader>
     );
 };
 const StyledHeader = styled.header`
-    background-color: #c8d3ef;
+    background-color: #5e6070;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 `
  

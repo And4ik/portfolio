@@ -29,7 +29,6 @@ const StyledSlider = styled.div`
     align-items: center;
 `
 const Slide = styled.div`
-
     text-align: center;
 `
 const Text = styled.p`

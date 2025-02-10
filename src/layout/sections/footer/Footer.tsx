@@ -11,27 +11,27 @@ export const Footer = () => {
                 <SocialList>
                     <SocialItem>
                         <SocialLink>
-                            <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21 px"} iconId={"css"}/>
+                            <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21 px"} iconId={"instagram"}/>
                         </SocialLink>
                         <SocialLink>
-                            <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21 px"} iconId={"css"}/>
+                            <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21 px"} iconId={"telegram"}/>
                         </SocialLink>
                         <SocialLink>
-                            <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21 px"} iconId={"css"}/>
+                            <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21 px"} iconId={"vk"}/>
                         </SocialLink>
                         <SocialLink>
-                            <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21 px"} iconId={"css"}/>
+                            <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21 px"} iconId={"linkedin"}/>
                         </SocialLink>
                     </SocialItem>
                 </SocialList>
-                <Copyright> @ 2023 Andrei Khanko, All rights Reserved</Copyright>
+                <Copyright> @ 2025 Andrei Khanko, All rights Reserved</Copyright>
             </FlexWrapper>
         </StyledFooter>
     );
 };
 
 const StyledFooter = styled.footer`
-    background-color: deeppink;
+    background-color: #edc8dd;
     min-height: 20vh;
 `
 const Name = styled.span`
